@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>About Me</title>
+	
+
+	<style>
+
+		h1
+		{
+			text-align: center;
+		}
+
+		h2
+		{
+			text-align: center;
+		}
+
+		h4
+		{
+			text-align: center;
+		}
+
+		table,tr,td
+
+		{
+        	border: 2px solid black;
+        	border-collapse: collapse;
+			text-align: center;
+		}
+
+        
+		tr:nth-child(odd)
+		{
+			background-color: lightpink;
+		}
+
+		tr:nth-child(even)
+		{
+			background-color:lightcoral;
+		}
+
+		a:link, a:visited
+		{
+			color: lavenderblush;
+			background-color: deeppink;
+			text-decoration: none;
+			text-align: center;
+			padding: 20px;
+			display: inline-block;
+			border-radius: 25px;
+		}
+
+		.nav-container
+	    {
+		text-align: center;
+		padding: 30px;
+
+	    }
+		p 
+		{
+			text-align: center;
+		}
+
+		audio 
+		{
+			text-align: center;
+		}
+
+		video
+		{
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+
+
+
+	 <div class="nav-container">
+	    <a href="index3.html" target="_blank">Homepage</a>
+	    <a href="about_me.html" target="_blank">About Me</a>
+	    <a href="education1.html" target="_blank">Education</a>
+	    <a href="gallery1.html" target="_blank">Gallery</a>
+	    <a href="contact_details.html" target="_blank">Contact Details</a>
+	</div>
+
+    <h2>My Profile
+      <span style="">&#128221</span>
+    </h2>
+	
+	<div style="text-align: center; padding: 20px;">
+	<table style="margin:0 auto;">
+		<tr><td>Name</td> <td>Lora Izora Arus Binti Rizal Arus</td></tr>
+		<tr><td>Date of Birth</td><td> 15 July 2005</td></tr>
+		<tr><td>Place of Birth</td><td>Kedah Medical Center</td></tr>
+		<tr><td>Age</td><td>20</td></tr>
+		<tr><td>Gender</td><td>Female</td></tr>
+		<tr><td>Siblings</td><td>Three. I'm the youngest.</td></tr>
+    </table>
+</div>
+
+
+	<h1> Feel free to click between these two pictures :) </h1>
+	<p>This is when I receive my SPM results and got my Dean List certificate</p>
+
+	<script>
+    	function mygambar(a)
+    	{
+    		var pict;
+    		if (a==1)
+    		{
+    			pict="image/loraspm.jpg"
+    		}
+    		else
+    		{
+    			pict="image/loradeanlist.jpg"
+    		}
+    		document.getElementById('gambar').src=pict;
+    	}
+    </script>
+
+    
+    <img src="image/loraspm.jpg" width="300" height="300" id="gambar" style="display: block; margin: 0 auto;">
+
+    <p>
+    	<button type="button" onclick="mygambar(1)">SPM</button>
+
+    	<button type="button" onclick="mygambar(3)">Dean List</button>
+    </p>
+
+	
+
+	<h1>My Skills
+       <span style="color">&#128204</span>
+	</h1>
+
+	<p>Throughout my academic journey as an Information Management student, I have developed good technical skills in HTML and CSS, which enable me to design digital spaces that are both functional and aesthetic. As an academic and internship student, I have developed skills in Records Management and Filling. Plus, I also have skills that involved creating videos for multimedia projects. This is because I am a detail-oriented person and enjoy the technicality involved in managing information that can be overwhelming, yet flexible enough to adapt  to the latest trends. Here are an example of a video that I have created.</p>
+
+	<h2>Travel Vlog
+        <span style="color">&#127909</span>
+	</h2>
+
+	<div style="background: #FFE4E1; padding: 40px; text-align: center;">
+	<video width="450" height="450" controls style="border-radius: 10px; border: 3px solid #FF1493;">
+		<source src="video/vlog.mp4" type="video/mp4">
+	</video>
+
+	<h1>Self-Care
+       <span style="color">&#128133</span>
+	</h1>
+
+	<p>However, when I am not not concentrating on academics, I pursue some favourite hobbies that inspire me and motivate me to continue working on my creative projects everyday. The hobbies that I enjoy include wathing volleyball match, which I find fascinating in terms of team work and pace. The other hobby that I enjoy includes listening to music, which fills me with inspiration on a daily basis, whether it is listening to artists that I like or following volleyball team performances whne i want to feel motivated after a creative project.</p>
+
+	<h2>Enjoy the song
+        <span style="color">&#127925</span>
+	</h2>
+	<audio controls>
+		<source src="audio/youinmyheart.mp3" type="audio/mp3">
+		
+	</audio>
+
+	<h4>Here is a cute gif for you</h4>
+    <img src="animation/tulips.gif" alt="Animated Images of tulips" style="height: 400px; width: 350px;">
+
+
+
+</body>;
+</html>
+
+<footer style="
+	    background: ;
+	    color:darkred;
+	    text-align: center;
+	    padding: 10px;
+	    margin-top: 50px;
+	">
+
+<div style="font-size: 25px; margin-bottom: 10px;">
+	   	    <span style="color: ;">&#127799</span>
+	   	    <span style="color: ;">&#127810</span>
+	   	    <span style="color: ;">&#127799</span>
+	   	
+	   </div>
+
+	   <p style="margin-bottom: 10px;">
+	   	    Thank you and have fun visiting my website :)
+
+	   </p>
+	   <p>
+	   	  &copy; 2026 | Created by Lora Izora Arus Binti Rizal Arus 
+	   </p>
+	  </footer>
