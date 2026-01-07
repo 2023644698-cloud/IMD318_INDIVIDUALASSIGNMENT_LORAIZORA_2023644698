@@ -1,0 +1,44 @@
+body
+{
+	background-image: url("../image/tulip.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+h1
+{
+	font-family: georgia;
+	color: darkred;
+	font-size: 25px;
+	background-color: lightpink;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+h2
+{
+	font-family: georgia;
+	color: darkred;
+	font-size: 25px;
+	background-color: mistyrose;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+p 
+{
+	font-family: cambria;
+	font-size: 20px;
+	color: darkblue;
+}
+
+li 
+{
+	font-family: optima;
+	color: darkred;
+	font-size: 25px;
+	background-color: lightsalmon;
+	padding: 20px;
+	border-radius: 20px;
+}
